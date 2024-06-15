@@ -15,7 +15,7 @@ root.render(<h1>baby_fashion_world_grp4_project3_icp7.0</h1>);
    
      if (path === "/about")
         {
-            root.render(<About />)
+            root.render(< About/>)
         }
         
             else{
