@@ -1,0 +1,88 @@
+
+
+.about-page {
+  background-color:#f5f5ef;
+    font-family: Arial, sans-serif;
+    overflow-y: auto;
+    max-height: 100vh;
+  }
+  .first-main-img-container{
+    display: flex;
+  }
+  .second-main-img-container{
+    display: flex;
+    margin-bottom: 100px;
+
+  }
+  .text-container{
+    margin-left: 30px;
+    width: 500px;
+  }
+  .first-main-img{
+    padding: 0;
+    margin-right: 50px;
+    height: 400px;
+ width: 700px;
+    border-radius: 20px;
+
+  }
+  .first-main-img:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  }
+
+  
+    .second-main-img{
+      margin-right: 30px;
+      width: 700px;
+    }
+    .second-main-img:hover{
+      box-shadow: 0 0 30px rgba(0,0,0,0.3);
+      
+    }
+    .second-text-container{
+      width: 600px;
+      margin: 5px 50px;
+    }
+    
+  
+  .card-container{
+    padding: 30px;
+    display: flex;
+    margin:10px 0px;
+
+
+  }
+  .about-card-container{
+    margin-right: 50px;
+    background-color: rgb(238, 236, 234);
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .about-card-container:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    padding: 11px;
+
+  }
+ 
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .second-main-img
+{
+  border-radius: 20px;
+  height: 400px;
+  width: 600px;
+}
+  
+.explore-section{
+  margin-top: 10px;
+  justify-content: center;
+  text-align: center;
+}
+  
+
+
+
+
+

@@ -1,0 +1,38 @@
+
+/* styles.css */
+
+
+  .our-team
+   {
+    padding: 20px 0px;
+    background-color: rgb(238, 236, 234);
+    text-align: center;
+  }
+  
+  .team-members
+   {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+  }
+  .team-member:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+   
+
+  }
+  
+  .team-member
+   {
+    margin: 20px;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  .team-member img
+  {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  
