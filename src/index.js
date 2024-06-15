@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client"
 import About from "./views/About/About";
 import Home from "./views/Home/Home";
 
-import Review from "./views/Review/Review";
+import Review from "./views/ShoppingList/ShoppingList";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
