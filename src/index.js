@@ -2,6 +2,7 @@
 import ReactDOM from "react-dom/client"
 
 import About from "./views/About/About";
+import Home from "./views/Home/Home";
 
 import Review from "./views/Review/Review";
 
@@ -13,12 +14,12 @@ root.render(<h1>baby_fashion_world_grp4_project3_icp7.0</h1>);
  const path = window.location.pathname
 
    
-     if (path === "/about")
+     if (path == "/about")
         {
             root.render(<About />)
         }
           
-     else if (path === "/")
+     else if (path == "/")
      {
          root.render(<Home />)
      }

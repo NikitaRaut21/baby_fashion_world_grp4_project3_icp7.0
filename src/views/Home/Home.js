@@ -1,8 +1,8 @@
-import Navbar from "./../../component/Navbar/navbar"
+
 import "./Home.css"
+import Header from "../../components/Header/Header";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import CarouselPage from "../../CarouselPage";
 
 import umbrella from "./umbrella.jfif"
@@ -14,7 +14,7 @@ import girls from "./girls-cloths.jfif"
 
 const Home = () => {
     return(<>
-    <Navbar/>
+    <Header/>
     <CarouselPage/>  
    
     <div className="Fashion-categories">

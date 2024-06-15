@@ -1,10 +1,10 @@
 import React from 'react'
-import "./navbar.css";
+import "./Header.css";
 
 import {Link} from "react-router-dom";
 
 
-function Navbar() {
+function Header() {
   return (
     <div className='Navbar-Container'>
       <Link to ='/' className='nav-menu'>Home</Link>
@@ -16,4 +16,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Header
