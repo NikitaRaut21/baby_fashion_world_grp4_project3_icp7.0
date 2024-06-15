@@ -1,11 +1,11 @@
-import "./Review.css"
+import "./ShoppingList.css"
 import AddIcon from "./add.png"
 import ToDoCard from "../../components/ToDoCard/ToDoCard"
 import { useEffect, useState } from "react"
 import toast,{Toaster} from "react-hot-toast"
 import swal from "sweetalert2";
 
-function Home() {
+function ShoppingList() {
  
 const[todoList,setTodoList]=useState([])
 const [newTask,setNewTask] = useState("")
@@ -110,4 +110,4 @@ function deleteItem(index){
   )
 }
 
-export default Home
+export default ShoppingList
