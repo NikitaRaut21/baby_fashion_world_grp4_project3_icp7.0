@@ -67,7 +67,7 @@ const Contact = () => {
             </div>
             <div>
                 <h2 className="title"> <b> Address :</b></h2>
-                <p className="heading-2">1st Floor, Amanora Mall, Mundhwa Rd, Amanora Park Town, Hadapsar, Pune, Maharashtra 411028</p>
+                <p className="heading-3">1st Floor, Amanora Mall, Mundhwa Rd, Amanora Park Town, Hadapsar, Pune, Maharashtra 411028</p>
 
                 <h2 className="title"><b>Mobile no :</b></h2>
                 <img src={Phone}className="Icon"/>

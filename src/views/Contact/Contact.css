@@ -10,7 +10,7 @@
 }
 
 .bg-img {
-    background-image: url('./baby\ cloth.avif');
+    background-image: url('./cloth-1.avif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -110,15 +110,22 @@ form button :hover {
 }
 .title{
      font-size: 35px;
-     margin-left: 10px;
+     margin-left: 80px;
      color:  #75a3a3;
 }
 .heading-2 {
     font-size: 25px;
+    margin-left: 15px;
+    
     
 }
 .Icon {
     width: 30px;
-    margin-left: 5px;
+    margin-left: 80px;
+   
+    
 }
-
+.heading-3 {
+    font-size: 30px;
+    margin-left: 80px;
+}
