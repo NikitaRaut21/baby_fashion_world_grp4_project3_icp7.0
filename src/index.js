@@ -6,6 +6,7 @@ import About from "./views/About/About";
 import ShoppingList from "./views/ShoppingList/ShoppingList";
 
 import Contact from './views/Contact/Contact';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(<h1>baby_fashion_world_grp4_project3_icp7.0</h1>);
