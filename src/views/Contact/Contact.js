@@ -34,6 +34,7 @@ const Contact = () => {
      
 
     return (
+        
         <section className='contact'>
             <form onSubmit={onSubmit}>
                 <h2>
@@ -55,13 +56,28 @@ const Contact = () => {
             </form>
 
         </section>
+       
+
+      
+       
+        
+      
 
 
+       
 
-    )
+
+    );
     
    
-}
+};
+
+
+
+  
+
+
+
 
 export default Contact
 
