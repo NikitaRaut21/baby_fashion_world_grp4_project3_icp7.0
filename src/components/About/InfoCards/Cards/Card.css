@@ -1,0 +1,34 @@
+
+/* styles.css */
+
+
+.all-cards
+{
+ padding: 20px 0px;
+
+ text-align: center;
+}
+
+.cards-data
+{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+
+}
+.Card-data:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+   
+
+  }
+  
+  .Card-data
+   {
+    margin: 20px;
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+
+

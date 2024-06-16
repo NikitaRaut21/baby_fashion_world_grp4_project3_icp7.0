@@ -2,6 +2,7 @@ import "./About.css"
 import firstImg from "./first-img.jpg"
 import secondImg from "./second-img.png"
 import Team from "./../../components/About/Team/Team";
+import Card from "./../../components/About/InfoCards/Cards/Card"
 import {theme} from "./../../configData";
 
 const About = () => {
@@ -26,34 +27,8 @@ const About = () => {
         </div>
 
   
-        < div className="card-container">
-      <div className="about-card-container"style={{backgroundColor:theme.primaryColor}}>
-        <section className="mission-section">
-          <h2>Quality and Comfort</h2>
-          <p>Quality and comfort are paramount when it comes to baby clothes. Babies have sensitive skin that can easily get irritated by rough fabrics or harsh chemicals. Therefore, high-quality baby clothes are typically made from soft, breathable materials like organic cotton, bamboo, and other natural fibers.</p>
-        </section>
-        </div>
-        <div className="about-card-container"style={{backgroundColor:theme.primaryColor}}>
-        <section className="mission-section">
-          <h2>Safety Considerations</h2>
-          <p>Safety is a critical factor in the design of baby clothes. Manufacturers avoid using small buttons, hooks, or any detachable parts that could pose a choking hazard. Instead, baby clothes often feature snap closures, zippers with protective flaps, and elastic bands that are secure yet comfortable.</p>
-        </section>
-        </div>
-        <div className="about-card-container"style={{backgroundColor:theme.primaryColor}}>
-        <section className="mission-section">
-          <h2>Ease of Dressing</h2>
-          <p>Dressing a squirming baby can be challenging, so baby clothes are designed to make the process as easy as possible. This includes wide neck openings, stretchy materials, and snap buttons along the inseams of pants and onesies, allowing for quick diaper changes without fully undressing the baby.</p>
-        </section>
-        </div>
-        <div className="about-card-container"style={{backgroundColor:theme.primaryColor}}>
-        <section className="mission-section">
-          <h2>Stylish Designs</h2>
-          <p>While practicality is key, modern baby clothes also incorporate stylish designs. Parents enjoy dressing their children in cute, fashionable outfits that reflect their tastes. From playful prints and bright colors to elegant dresses and mini suits, baby fashion has evolved to include a wide variety of styles suitable for different occasions, whether it’s a casual day at home or a special event.</p>
-        </section>
-        </div>
-        
-        </div>
-
+       
+<Card/>
 
         <div className="second-main-img-container">
         
@@ -78,7 +53,6 @@ const About = () => {
         <img src={secondImg}className="second-main-img"/>
         </div>
 
-       
         
        <div className="team-container">  
       <Team />

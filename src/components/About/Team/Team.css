@@ -5,7 +5,7 @@
   .our-team
    {
     padding: 20px 0px;
-    background-color: rgb(238, 236, 234);
+  
     text-align: center;
   }
   
@@ -27,11 +27,12 @@
     margin: 20px;
     width: 300px;
     padding: 10px;
+    font-size: 20px;
   }
   
   .team-member img
   {
-    width: 100%;
+    width: 150px;
     border-radius: 50%;
   }
   
