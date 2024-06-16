@@ -4,6 +4,7 @@ import ToDoCard from "../../components/ToDoCard/ToDoCard"
 import { useEffect, useState } from "react"
 import toast,{Toaster} from "react-hot-toast"
 import swal from "sweetalert2";
+import BabyImg from"./baby.jpg"
 
 function ShoppingList() {
  
@@ -46,8 +47,13 @@ function deleteItem(index){
 
 }
   return (  <div>
-  <h1 className="app-title">ToDoApp📃</h1>
-
+  <h1 className="app-title">Baby Product🐣</h1>
+  <div className="babypr">
+    <div>
+  <img src={BabyImg} className="baby-img"/>
+  </div>
+  <div className="baby-Title">first Step With first Product!🐣</div>
+  </div>
   <div className="todo-list-container">
   { todoList.map((todoItem,i)=>{
     const { task,category}= todoItem
