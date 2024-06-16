@@ -39,7 +39,7 @@ const Contact = () => {
 
     return (
 
-        <div>
+        <div className='hero'>
 
             < div className='bg-img' >
                 <section className='contact'>
