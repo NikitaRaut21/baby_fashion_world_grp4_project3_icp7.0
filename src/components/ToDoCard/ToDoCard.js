@@ -2,6 +2,7 @@ import React from 'react'
 import "./ToDoCard.css"
 import ImgDel from "./delete.png"
 
+
 function ToDoCard({index,task,category,deleteItem}) {
 
   const CATEGORY_EMOJI_MAP = {

@@ -109,7 +109,7 @@ form button :hover {
    color:  #75a3a3;
 }
 .title{
-     font-size: 30px;
+     font-size: 35px;
      margin-left: 10px;
      color:  #75a3a3;
 }
@@ -119,5 +119,6 @@ form button :hover {
 }
 .Icon {
     width: 30px;
+    margin-left: 5px;
 }
 
