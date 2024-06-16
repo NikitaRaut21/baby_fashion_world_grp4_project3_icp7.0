@@ -1,6 +1,12 @@
-.team-member{
+.Card-data{
     border: 1px solid rgb(238, 236, 234);
     border-radius: 20px;
     background-color:#f5f5ef;
     
+}
+.heading-and-img{
+    display: flex;
+}
+.icon{
+    height: 100px;
 }
