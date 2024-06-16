@@ -2,6 +2,7 @@ import "./About.css"
 import firstImg from "./first-img.jpg"
 import secondImg from "./second-img.png"
 import Team from "./../../components/About/Team/Team";
+import {theme} from "./../../configData";
 
 const About = () => {
  
@@ -24,7 +25,7 @@ const About = () => {
 
   
         < div className="card-container">
-      <div className="about-card-container">
+      <div className="about-card-container"style={{backgroundColor:theme.primaryColor}}>
         <section className="mission-section">
           <h2>Quality and Comfort</h2>
           <p>Quality and comfort are paramount when it comes to baby clothes. Babies have sensitive skin that can easily get irritated by rough fabrics or harsh chemicals. Therefore, high-quality baby clothes are typically made from soft, breathable materials like organic cotton, bamboo, and other natural fibers.</p>
