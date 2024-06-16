@@ -5,6 +5,7 @@ import { useEffect, useState } from "react"
 import toast,{Toaster} from "react-hot-toast"
 import swal from "sweetalert2";
 import BabyImg from"./baby.jpg"
+import {theme} from "../../configData"
 
 function ShoppingList() {
  
@@ -47,14 +48,14 @@ function deleteItem(index){
 
 }
   return (  <div>
-  <h1 className="app-title">Baby Product🐣</h1>
+  <h1 className="app-title" >Baby Product🐣</h1>
   <div className="babypr">
     <div>
   <img src={BabyImg} className="baby-img"/>
   </div>
   <div className="baby-Title">first Step With first Product!🐣</div>
   </div>
-  <div className="todo-list-container">
+  <div className="todo-list-container" style={{backgroundColor:theme.primaryColor}}>
   { todoList.map((todoItem,i)=>{
     const { task,category}= todoItem
     
