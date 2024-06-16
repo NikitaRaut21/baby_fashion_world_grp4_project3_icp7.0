@@ -1,0 +1,60 @@
+body{
+    background-color: #f5f5ef;
+}
+.main-banner{
+    width: 90%;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 70px;
+
+}
+.umbrealla-img{
+    border-radius: 10px;
+    margin-top: 200px;
+    height: 250px;
+    width: 350px;
+    margin: 20px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.1);
+   
+}
+.umbrealla-img:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transform: scale(0.1s);  
+  
+}
+.Fashion-categories{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+.Service-images{
+   display: flex;
+  
+}
+.srvice-img{
+  
+    height: 80px;
+    margin-top: 10%;
+    margin-left: 120px;  
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+   
+
+}
+.srvice-img:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);    
+}
+
+.home-video{
+    margin-top: 700px;
+    margin-left: 250px;
+    height: 400px;
+
+}

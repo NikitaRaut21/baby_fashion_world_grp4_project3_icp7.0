@@ -2,6 +2,7 @@
 import ReactDOM from "react-dom/client"
 
 import About from "./views/About/About";
+import Home from "./views/Home/Home";
 
 import ShoppingList from "./views/ShoppingList/ShoppingList";
 
@@ -53,10 +54,18 @@ if(path === "/about")
         {
             root.render(<ShoppingList/>)
         }
+
+          
+     else if (path === "/")
+     {
+         root.render(<Home />)
+     }
+        
         else if (path === "/contact")
             {
                 root.render(<Contact/>)
             }
+            
             else{
                 root.render(<h1>404 Page Not Found</h1>)
             }
