@@ -12,8 +12,10 @@ const About = () => {
         <h1>About Us</h1>
         
         
-      <div className="first-main-img-container">
-        <img src={firstImg }className="first-main-img"/>
+        <div className="first-main-img-container">
+      <img src={firstImg }className="first-main-img"/>
+     
+       
         <div className="text-container">
          <h1>Our story</h1>
          <h3>One of the keys to reaching your goals is to eliminate any escape routes. It is tempting to retreat to safety and comfort when challenges and difficulties arise.
