@@ -1,3 +1,8 @@
+body{
+    background-color:#f5f5ef;
+    font-family: "Shadows Into Light", cursive;
+  
+  }
 .app-title{
     text-align: center;
 }
@@ -10,6 +15,7 @@
     padding: 5px;
     overflow-y: scroll;
     border: 1px solid rgb(13, 13, 13);
+    margin-top: 20px;
 
 } 
 .todo-list-container:hover{
@@ -20,7 +26,7 @@
 .add-input{
     padding: 5px 10px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 14px;
     border: 1px solid black;
     margin-right: 20px;
 }
@@ -50,4 +56,21 @@
     border: 1px solid #ccc;
     margin-right: 12px;
     border: 1px solid black;
+}
+.baby-img{
+   display: flex;
+   justify-self:center;
+   margin: 5px auto;
+}
+.babypr{
+    position: relative;
+}
+
+
+.baby-Title{
+    position: absolute;
+   bottom: 50%;
+   margin-left: 510px;
+   font-size: 40px;
+   
 }
