@@ -1,5 +1,5 @@
 body{
-    background-color:#f5f5ef;
+   
     font-family: "Shadows Into Light", cursive;
   
   }
@@ -14,7 +14,7 @@ body{
     margin: 5px auto;
     padding: 5px;
     overflow-y: scroll;
-    border: 1px solid rgb(13, 13, 13);
+   
     margin-top: 20px;
 
 } 
