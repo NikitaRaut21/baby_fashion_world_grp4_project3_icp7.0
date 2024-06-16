@@ -47,7 +47,7 @@ function deleteItem(index){
    })
 
 }
-  return (  <div>
+  return (  <div style={{backgroundColor:theme.backColor}}>
   <h1 className="app-title" >Baby Product🐣</h1>
   <div className="babypr">
     <div>
