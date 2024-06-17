@@ -1,0 +1,13 @@
+.height {
+    height: 500px;
+    width: 90%;
+    margin-top: 50px;
+    /* padding: 10px; */
+}
+
+@media (max-width: 768px) {
+    .height {
+        height: 300px; 
+        margin-top: 30px; 
+    }
+}
