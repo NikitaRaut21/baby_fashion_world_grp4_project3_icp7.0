@@ -1,0 +1,135 @@
+.fullview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+background-color: #f8f8f8;
+}
+
+.parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.child1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.fullavatar {
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.child2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
+    font-size: 18px;
+}
+
+.child2 h1, .child2 h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.child2 p, .child2 ul {
+    margin: 10px 0;
+}
+
+.pricecontainer {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.date {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.offer {
+    color: red;
+    display: inline-block;
+    animation: zoomInOut 1.5s infinite alternate;
+}
+
+@keyframes zoomInOut {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.offer:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease;
+}
+
+/* Media query for tablets */
+@media (max-width: 900px) {
+    .parent {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .child1 {
+        margin-right: 0;
+        padding: 10px;
+    }
+
+    .child2 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .fullavatar {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+    .fullview {
+        padding: 10px;
+    }
+
+    .parent {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .child1 {
+        padding: 5px;
+    }
+
+    .child2 {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .fullavatar {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}
