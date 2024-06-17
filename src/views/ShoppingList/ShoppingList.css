@@ -78,8 +78,7 @@ body{
 }
 @media (min-width: 600px) and (max-width: 768px){
     .baby-img{
-        display: flex;
-        justify-self: center;
+       
         margin: 5px auto;
         max-width: 280px;
         height: auto;
