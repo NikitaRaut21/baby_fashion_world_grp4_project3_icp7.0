@@ -43,7 +43,7 @@ form h2 {
 form .input-box {
     margin-top: 20px;
     font-size: 23px;
-    color:  #75a3a3;
+    color: #75a3a3;
 }
 
 .input-box .field {
@@ -98,9 +98,6 @@ form button {
     box-shadow: 0 0 5px #ffb3d1;
 }
 
-
-
-
 form button :hover {
     background: aqua;
 }
@@ -112,77 +109,66 @@ form button :hover {
 
 .heading {
     font-style: url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-   color:  #75a3a3;
+    color: #75a3a3;
 }
-.title{
-     font-size: 35px;
-     margin-left: 80px;
-     color:  #75a3a3;
+
+.title {
+    font-size: 35px;
+    margin-left: 80px;
+    color: #75a3a3;
 }
+
 .heading-2 {
     font-size: 25px;
     margin-left: 15px;
 }
+
 .Icon {
     width: 30px;
     margin-left: 80px;
-   
-    
+
+
 }
+
 .heading-3 {
     font-size: 30px;
     margin-left: 90px;
 }
+
 .hero {
-    /* background-color: antiquewhite; */
-    background-color: white;
+    background-color: antiquewhite;
     width: 100%;
 }
+
 @media screen and (min-width:600px) and (max-width:768px) {
     .bg-img {
         background-size: cover;
-        height: 80vh;
+        height: 100vh;
         width: 95%;
         border-radius: 10px;
         margin-left: 25px;
         margin-top: 20px;
     }
+
     .contact {
-        min-height: 100vh;
-        width: 500px;
-        margin-left: 185px;
-    }
-    .maps {
-        width: 740px;
-    }
-    .maps:hover {
-        border-radius: 20px;
-    }
-   
-}
-/* @media screen and (min-width:320px) {
-    .bg-img {
-        background-size: cover;
-        height: 140vh;
-        width: 700px;
-        border-radius: 10px;
-        margin-left: 25px;
+
+        max-height: 1px;
+        width: 350px;
+        margin-left: 500px;
         margin-top: 20px;
     }
-    .contact {
-        min-height: 50vh;
-        width: 450px;
-        margin-left: 200px;
-    }
+
     .maps {
-        width: 740px;
+        width: 960px;
     }
+
     .maps:hover {
         border-radius: 20px;
     }
-   
 
-    } */
-   
+    .hero {
+        background-color: antiquewhite;
+        width: 130%;
+    }
 
-
+}
