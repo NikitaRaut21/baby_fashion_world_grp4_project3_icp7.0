@@ -1,16 +1,20 @@
 import React from 'react';
 import "./Team.css"
 import TeamMember from './../TeamMembers/TeamMemners';
+import Profile from "../Profile.png"
 import NikitaRaut from "../NikitaRaut.jpg"
+import RutujaGaikwad from "../RutujaGaikwad.jpg"
+import sakshiShewale from "../SakshiShewale.jpg"
+import priyankaPhadke from "../PriyankaPhadke.jpg"
 
 
 
-// Sample Data
+
 const teamMembers = [
   { id: 1, name: 'Rutuja Gaikwad ',
     role: 'Lead Designer ',
     bio: 'Loves creating cute and innovative baby outfits.',
-    image: NikitaRaut },
+    image:RutujaGaikwad  },
 
   { id: 2, name: 'Nikita Raut',
     role: 'Founder & CEO',
@@ -20,30 +24,30 @@ const teamMembers = [
   { id: 3, name: 'Sakski Shewale', 
     role: 'Head of Marketing',
     bio: 'Expert in crafting compelling marketing strategies.',
-    image: NikitaRaut },
+    image: sakshiShewale },
 
   { id: 4, name: 'Rutuja More',
     role: 'Product Development Manager', 
     bio: 'Ensures the quality and innovation of our products.', 
-    image: NikitaRaut},
+    image: Profile},
 
   { id: 5, name: 'Rutuja Wabale',
     role: 'Customer Support Manager', 
     bio: 'Dedicated to providing excellent customer service.', 
-    image: NikitaRaut },
+    image: Profile },
 
   { id: 6, 
     name: 'Sakshi Lambe', 
     role: 'Head Financial Officer', 
     bio: 'Manages our financial health and strategies.', 
-    image: NikitaRaut },
+    image: Profile},
 
   { id: 7, name: 'Priyanka Phadke', 
     role: 'Chief Financial Officer', 
     bio: 'Manages our financial health and strategies.', 
-    image:  NikitaRaut},
+    image:  priyankaPhadke },
 
-  // Add more team members as needed
+
 ];
 
 const Team = () => {
