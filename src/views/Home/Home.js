@@ -53,7 +53,7 @@ const Home = () => {
     <Service/>
     <Blogs/>
      <div>
-      
+
       <div>
         <img src=""/>
         <p>Paragraph is added</p>
