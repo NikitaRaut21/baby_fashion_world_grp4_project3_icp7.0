@@ -18,6 +18,10 @@ import Service from "../../components/Home/Service/Service";
 // import { Slide}  from "react-slideshow-image";
 import Blogs from "./../../components/Home/Blogs/Blogs";
 
+
+
+
+
 const Home = () => {
     return(<>
     <Navbar/>
