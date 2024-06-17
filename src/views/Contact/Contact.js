@@ -82,7 +82,7 @@ const Contact = () => {
 
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.489706778497!2d79.0681515736986!3d21.1329011841965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c16b49ad42b5%3A0x4e0e33120ce2e0b7!2sFruit%20and%20Juice%20Centre!5e0!3m2!1sen!2sin!4v1712947178867!5m2!1sen!2sin"
-                    allowfullscreen="" loading="lazy" width="1700" height="450"
+                    allowfullscreen="" loading="lazy" width="1660" height="450 "
                     referrerpolicy="no-referrer-when-downgrade" className="maps"></iframe>
             </div>
 

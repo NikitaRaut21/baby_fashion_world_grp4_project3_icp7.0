@@ -15,8 +15,13 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 80vh;
-    width: 100%;
+    width: 95%;
+    border-radius: 10px;
+    margin-left: 45px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px gray;
 }
+
 
 form {
     max-width: 500px;
@@ -102,6 +107,7 @@ form button :hover {
 
 .maps:hover {
     box-shadow: 0 0 20px gray;
+    border-radius: 20px;
 }
 
 .heading {
@@ -116,8 +122,6 @@ form button :hover {
 .heading-2 {
     font-size: 25px;
     margin-left: 15px;
-    
-    
 }
 .Icon {
     width: 30px;
@@ -127,9 +131,58 @@ form button :hover {
 }
 .heading-3 {
     font-size: 30px;
-    margin-left: 80px;
+    margin-left: 90px;
 }
 .hero {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    background-color: white;
     width: 100%;
 }
+@media screen and (min-width:600px) and (max-width:768px) {
+    .bg-img {
+        background-size: cover;
+        height: 80vh;
+        width: 95%;
+        border-radius: 10px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .contact {
+        min-height: 100vh;
+        width: 500px;
+        margin-left: 185px;
+    }
+    .maps {
+        width: 740px;
+    }
+    .maps:hover {
+        border-radius: 20px;
+    }
+   
+}
+/* @media screen and (min-width:320px) {
+    .bg-img {
+        background-size: cover;
+        height: 140vh;
+        width: 700px;
+        border-radius: 10px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .contact {
+        min-height: 50vh;
+        width: 450px;
+        margin-left: 200px;
+    }
+    .maps {
+        width: 740px;
+    }
+    .maps:hover {
+        border-radius: 20px;
+    }
+   
+
+    } */
+   
+
+
