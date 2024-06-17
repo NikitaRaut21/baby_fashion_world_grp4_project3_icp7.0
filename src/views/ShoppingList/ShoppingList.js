@@ -7,6 +7,7 @@ import swal from "sweetalert2";
 import BabyImg from"./baby.jpg"
 import {theme} from "../../configData"
 
+
 function ShoppingList() {
  
 const[todoList,setTodoList]=useState([])
@@ -47,7 +48,9 @@ function deleteItem(index){
    })
 
 }
-  return (  <div style={{backgroundColor:theme.backColor}} >
+
+  return ( <> <div style={{backgroundColor:theme.backColor}} >
+  
   <h1 className="app-title" >Baby Product🐣</h1>
   <div className="babypr">
     <div>
@@ -114,7 +117,11 @@ function deleteItem(index){
   </div>
   <Toaster position="right-top"/>
     </div>
+ 
+    </>
+   
   )
+  
 }
 
 export default ShoppingList

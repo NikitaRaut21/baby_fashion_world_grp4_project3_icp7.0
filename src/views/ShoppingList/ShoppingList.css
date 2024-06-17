@@ -80,13 +80,14 @@ body{
     .baby-img{
        
         margin: 5px auto;
-        max-width: 280px;
+        max-width: 500px;
         height: auto;
         border-radius: 10px;
     }
     .baby-Title{
-        font-size: 10px;
+        font-size: 24px;
       padding-left: 23px;
+      margin-left: 130px;
       
     }
 }
