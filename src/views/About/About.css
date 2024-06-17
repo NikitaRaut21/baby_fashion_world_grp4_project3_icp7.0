@@ -1,5 +1,4 @@
 
-
 .about-page {
  
   font-family: "Shadows Into Light", cursive;
@@ -78,12 +77,48 @@
   width: 600px;
 }
   
-.explore-section{
-  margin-top: 10px;
-  justify-content: center;
-  text-align: center;
-}
+@media screen and (max-width: 700px) {
+  .first-main-img-container{
+    display: block;
+
+  }
+  .text-container{
+   
+    width: 400px;
+    font-size: 20px;
+    margin: 20px;
   
+    width: 350px;
+  }
+
+  .first-main-img{
+    padding: 0;
+    margin: 20px;
+    height: 400px;
+    width: 350px;
+    display: block;
+}
+.second-main-img:hover{
+  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+  
+}
+.second-main-img-container{
+  display: block;
+}
+.second-text-container{
+  width: 400px;
+  font-size: 20px;
+  margin: 20px;
+  width: 350px;
+}
+.second-main-img{
+  padding: 0;
+  margin: 20px;
+  height: 400px;
+  width: 350px;
+  display: block;
+}
+}
 
 
 
