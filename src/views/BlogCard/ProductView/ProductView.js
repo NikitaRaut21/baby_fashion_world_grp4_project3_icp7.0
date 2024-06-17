@@ -1,6 +1,6 @@
 import "./ProductView.css";
 import { useParams } from "react-router-dom";
-import boysClothesData from "./../data/boys/Cloths";
+import boysClothesData from "../data/boys/Cloths";
 
 function ProductView() {
     const { id } = useParams();
