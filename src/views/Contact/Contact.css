@@ -137,11 +137,11 @@ form button :hover {
 }
 
 
-@media screen and (min-width:501px) and (max-width:768px){
+@media screen and (min-width:600px) and (max-width:768px){
     .bg-img {
         border-radius: 10px;
-        height: 80vh;
-        width: 90%;
+        height: 65vh;
+        width: 85vh;
         border-radius: 10px;
         margin-left: 25px;
         margin-top: 20px;
@@ -150,19 +150,22 @@ form button :hover {
     .contact {
 
         max-height: 100vh;
-        width: 390px;
-        margin-left: 110px;
+        width: 450px;
+        margin-left: 170px;
         margin-top: 20px; 
     }
     form {
-        width: 200px;
+        width: 250px;
     }
     .maps {
-        width: 730px;
-        height: 280px;
+        width: 710px;
+        height: 300px;
+        border-radius: 20px;
     }
 
     .maps:hover {
+        box-shadow: 0 0 20px gray;
         border-radius: 20px;
     }
+    
 }
