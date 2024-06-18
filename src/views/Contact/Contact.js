@@ -8,6 +8,7 @@ import { theme } from "./../../configData"
 
 
 
+
 const Contact = () => {
     const onSubmit = async (event) => {
         event.preventDefault();
@@ -45,7 +46,7 @@ const Contact = () => {
                 <section className='contact'>
                     <form onSubmit={onSubmit}>
                         <h2 className='heading'>
-                            <b>CONTACT Form</b>
+                            <b>CONTACT FORM</b>
                         </h2>
                         <div className='input-box'>
                             <label>Full Name :</label>
@@ -81,7 +82,7 @@ const Contact = () => {
 
 
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7566.451547240572!2d73.92466337770998!3d18.51869680000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c112a2e6836d%3A0xdf293a5408bc72bc!2sAmanora%20Mall!5e0!3m2!1sen!2sin!4v1718632763714!5m2!1sen!2sin"
-                    width="1320" height="380"
+                    width="100%" height="380"
                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='maps'></iframe>
             </div>
 
