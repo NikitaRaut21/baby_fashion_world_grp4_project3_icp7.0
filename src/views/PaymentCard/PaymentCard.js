@@ -38,6 +38,26 @@ function PaymentCard(){
                         setCount(0)
                     }}> Reset</button> */}
                     </div>
+
+                    <div className="payment-method-div">
+                        <img src={CreaditCard} className="payment-logo"/>
+                        <img src={Cash} className="payment-logo"/>
+                        <img src={Phonepay} className="payment-logo"/>
+                    </div>
+ 
+                </div>
+                    <div>
+                        <button type="button" className="buy-now-btn"> Buy Now</button>
+                    </div>
+
+
+            </div>
+
+
+
+        </>
+    )
+
                
     
 }
