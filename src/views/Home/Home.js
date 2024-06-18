@@ -15,7 +15,7 @@ import toys from "./toys.jfif"
 import boys from "./boy-cloths.jfif"
 import girls from "./girls-cloths.jfif"
 import Header from "./../../components/Header/Header"
-// import Footer from "./../../components/Footer/Footer"
+
 import Service from "../../components/Home/Service/Service";
 import ImageChanger from "./../../components/Home/Toggler/Toggler"
 
