@@ -49,10 +49,12 @@ const Home = () => {
     
     
     <div>
+
        <video controls  className="home-video">
          <source src="https://www.youtube.com/watch?v=JNQXAC9IVRw" type="mp4"/>   
          <p></p>     
        </video>
+       
     </div>
 
 
