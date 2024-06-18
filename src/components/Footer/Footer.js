@@ -9,7 +9,7 @@ import call from "./icons/phone.png"
 import message from "./icons/comments.png"
 import home from "./icons/house.png"
 import contact from "./icons/phn.webp"
-import about from "./icons/about.png"
+ import about from "./icons/about.png"
 import blog from "./icons/blog.png"
 import review from "./icons/review.png"
 
@@ -30,7 +30,7 @@ import review from "./icons/review.png"
       
     <Link to="/" className="links-components"><div className="img-contain"> <img src={home} className="img-content"></img>home</div></Link> 
     <Link to="/about" className="links-components"> <div className="img-contain"> <img src={blog} className="img-content"></img>blogs</div></Link>
-    <Link to="/about" className="links-components"><div className="img-contain"> <img src={about} className="img-content"></img>about </div></Link>
+    <Link to="/about" className="links-components"><div className="img-contain"> <img src={about} className="img-content"></img>about </div></Link>*/
     <Link to="/contact" className="links-components"><div className="img-contain"> <img src={contact} className="img-content"></img>contact</div></Link>
     <Link to="/home" className="links-components"><div className="img-contain"> <img src={review} className="img-content"></img>review</div></Link>
     
