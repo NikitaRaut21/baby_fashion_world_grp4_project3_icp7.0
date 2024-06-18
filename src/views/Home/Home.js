@@ -54,15 +54,7 @@ const Home = () => {
     <Blogs/>
      <div>
 
-      <div>
-        <img src=""/>
-        <p>Paragraph is added</p>
-      </div>
-      
-      <div>
-        <img src=""/>
-        <p> </p>
-      </div>
+     
 
      </div>
 
