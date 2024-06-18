@@ -13,12 +13,14 @@ body{
         position: absolute;
         top:100px;
         left: 240px; 
+        
     }
 
     .paymentcard-back-img{
         height: 100vh;
         width: 100vw;
         position: relative;
+        background-color: pink;
     }
     .payment-img{
         height: 140px;
