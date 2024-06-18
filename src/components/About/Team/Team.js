@@ -6,7 +6,8 @@ import NikitaRaut from "../NikitaRaut.jpg"
 import RutujaGaikwad from "../RutujaGaikwad.jpg"
 import sakshiShewale from "../SakshiShewale.jpg"
 import priyankaPhadke from "../PriyankaPhadke.jpg"
-
+import RutujaWable from "../RutujaWable.jpeg"
+import RutujaMore from "../RutujaMore.jpeg"
 
 
 
@@ -29,12 +30,12 @@ const teamMembers = [
   { id: 4, name: 'Rutuja More',
     role: 'Product Development Manager', 
     bio: 'Ensures the quality and innovation of our products.', 
-    image: Profile},
+    image: RutujaMore},
 
   { id: 5, name: 'Rutuja Wabale',
     role: 'Customer Support Manager', 
     bio: 'Dedicated to providing excellent customer service.', 
-    image: Profile },
+    image: RutujaWable },
 
   { id: 6, 
     name: 'Sakshi Lambe', 

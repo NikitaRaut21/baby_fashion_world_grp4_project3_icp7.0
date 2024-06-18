@@ -1,6 +1,7 @@
 import Navbar from  "./../../components/Header/Navbar"
 import "./Home.css"
 
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -65,6 +66,8 @@ const Home = () => {
       </div>
 
      </div>
+
+     
     
     
     </>)
