@@ -56,7 +56,7 @@ const Home = () => {
      <div>
       <div>
         <img src=""/>
-        <p></p>
+        <p>Paragraph is added</p>
       </div>
       
       <div>
