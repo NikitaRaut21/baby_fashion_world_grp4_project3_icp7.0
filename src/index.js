@@ -6,7 +6,7 @@ import About from "./views/About/About";
 import ShoppingList from "./views/ShoppingList/ShoppingList";
 
 import Contact from "./views/Contact/Contact";
-import Home from "./views/Home/Home"
+
 
 
 
@@ -26,7 +26,7 @@ import Home from "./views/Home/Home"
             const path = window.location.pathname
             if(path === "/")
                {
-                   root.render(<Home/>)
+                   root.render()
                }
                else if (path === "/about")
                    {
