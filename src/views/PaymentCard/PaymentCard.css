@@ -47,7 +47,26 @@ body{
         display: flex;
         justify-content: space-around;
         align-items: center;
-        
-    
     }
     
+    .payment-method-div{
+        /* background-color: blue; */
+    }
+    
+    .incre-decre-logo{
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+    }
+    
+    .icre-decre-div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .payment-logo{
+        height: 20px;
+        width: 20px;
+        margin-left: 5px;
+    }
