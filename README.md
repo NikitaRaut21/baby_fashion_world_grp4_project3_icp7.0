@@ -18,7 +18,7 @@ This Project is simply made by using ReactJS. Weather you are Beginner Student t
 5.
 ---
 ### Home Page
-![Home Page](./WebOutputs/Home1.png)
+![alt text](.\HomePage.jpg)
 
 ---
 
