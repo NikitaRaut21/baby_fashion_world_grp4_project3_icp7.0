@@ -8,7 +8,7 @@ import sakshiShewale from "../SakshiShewale.jpg"
 import priyankaPhadke from "../PriyankaPhadke.jpg"
 import RutujaWable from "../RutujaWable.jpeg"
 import RutujaMore from "../RutujaMore.jpeg"
-
+import SakshiLambe from "../SakshiLambe.jpg"
 
 
 const teamMembers = [
@@ -41,7 +41,7 @@ const teamMembers = [
     name: 'Sakshi Lambe', 
     role: 'Head Financial Officer', 
     bio: 'Manages our financial health and strategies.', 
-    image: Profile},
+    image: SakshiLambe},
 
   { id: 7, name: 'Priyanka Phadke', 
     role: 'Chief Financial Officer', 

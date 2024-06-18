@@ -12,7 +12,7 @@ import Home from "./views/Home/Home"
 import ProductView from "./views/BlogCard/ProductView/ProductView"
 import BlogProductCard from "./views/BlogCard/BlogProductCard/BlogProductCard"
 import Category from "./views/BlogCard/Category/Category"
-
+import Payment from "./views/PaymentCard/PaymentCard"
     
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
             const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -34,6 +34,11 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
              {
                 path:"/shopping",
                 element:<ShoppingList/>
+             
+             },
+             {
+                path:"/payment",
+                element:<Payment/>
              
              },
             
