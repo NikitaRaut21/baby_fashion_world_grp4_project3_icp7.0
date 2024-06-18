@@ -10,14 +10,18 @@ import Phonepay from "./payment-method.png"
 
 
 function PaymentCard(){
-    return(
+    const [count, setCount] = useState(0)
+    return (
         <>
-        <div >
-           
-           <h1>hii</h1> 
-        </div>
-        </>
-    )
+            <img src={PaymentBackgroundImg} className="paymentcard-back-img" />
+            <div className="payment-main-div">
+                <div>
+                    <img src={PaymentImg} className="payment-img" />
+                    <p className="title"> Kashvi Drishya tops</p>
+                </div>
+                <h3 className="heading-select-quantity"> Select Quantity</h3>
+               
+    
 }
 
 export default PaymentCard
