@@ -3,6 +3,8 @@
     flex-wrap: wrap;
     justify-content: center; 
     margin-top: 30px;
+    margin-left: 10px;
+ 
 }
 
 .Service-header {
@@ -13,7 +15,7 @@
     padding: 10px;
     height: 80px;
     margin: 10px;
-    margin-left: 90px;
+    margin-left: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     margin-top: 50px;
@@ -26,12 +28,46 @@
 }
 
 .service-text {
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 10px;
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+/* .img1{
+    margin-left: -80px;
 }
 
+.text1{
+    margin-left: 80px;
+}
+
+.text2{
+    margin-left: 105px;
+}
+.text3{
+    margin-left: 85px;
+}
+.text4{
+    margin-left: 95px;
+}
+.text5{
+    margin-left: 90px;
+}
+.text6{
+    margin-left: 85px;
+}
+.img3{
+    margin-left: 25px;
+} */
+.img3{
+    margin-left: 25px;
+} 
+.img5{
+    margin-left: 30px;
+} 
+.img6{
+    margin-left: 11px;
+} 
 @media screen and (max-width: 768px) {
     .srvice-img {
         height: 60px;
@@ -41,6 +77,12 @@
 
     .service-text {
         margin-left: 10px; 
-        font-size: 16px; 
+        font-size: 13px; 
     }
 }
+
+
+
+
+
+     
