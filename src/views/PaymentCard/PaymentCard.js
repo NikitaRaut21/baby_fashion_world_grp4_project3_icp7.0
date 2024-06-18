@@ -1,5 +1,5 @@
 import "./PaymentCard.css"
-import PaymentImg from "./../../Assets/BreakFast.jpg"
+import PaymentImg from "./../PaymentCard/boy-cloth-img.webp"
 import { useState } from "react";
 import IncreaseQuantity from "./../plus.png"
 import DecreaseQuantity from "./../minus.png"
@@ -18,7 +18,7 @@ function PaymentCard(){
             <div className="payment-main-div">
                 <div>
                     <img src={PaymentImg} className="payment-img" />
-                    <p className="title"> Kashvi Drishya tops</p>
+                    <p className="title"> Kashvi Drishya Dresses</p>
                 </div>
                 <h3 className="heading-select-quantity"> Select Quantity</h3>
 
