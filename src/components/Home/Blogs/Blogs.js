@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import "./Blogs.css"
+
 import img1 from "./img/blogs-img1.jfif"
 import img2 from "./img/blogs-img2.jfif"
 import img3 from "./img/blogs-img3.jfif"
@@ -11,7 +12,7 @@ import img6 from "./img/blogs-img6.jpg"
 function Blogs() {
   return (
     <div>
-
+    
       <div className='Blog-Heading_text'>
         <h1>Blog Posts</h1></div>
 

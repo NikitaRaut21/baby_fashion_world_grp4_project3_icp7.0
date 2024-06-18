@@ -38,18 +38,18 @@
 .Blog-heading {
     margin-top: 10px;
     font-size: 30px;
-    text-align: center; /* Center align headings */
+    text-align: center; 
 }
 
 .Blog-text {
     font-size: 20px;
-    text-align: justify; /* Justify text for better readability */
+    text-align: justify; 
 }
 
 @media screen and (max-width: 768px) {
     .Blog {
-        width: 100%; /* Full width for smaller screens */
-        max-width: 400px; /* Limit maximum width */
+        width: 100%; 
+        max-width: 400px; 
     }
 
     .img {
@@ -58,10 +58,10 @@
     }
 
     .Blog-heading {
-        font-size: 24px; /* Decrease font size on smaller screens */
+        font-size: 24px; 
     }
 
     .Blog-text {
-        font-size: 18px; /* Decrease font size on smaller screens */
+        font-size: 18px; 
     }
 }

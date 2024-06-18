@@ -14,9 +14,11 @@ import raincoat from "./raincoat.jfif"
 import toys from "./toys.jfif"
 import boys from "./boy-cloths.jfif"
 import girls from "./girls-cloths.jfif"
+
 import Service from "../../components/Home/Service/Service";
 
 import Blogs from "./../../components/Home/Blogs/Blogs";
+import { Link } from "react-router-dom";
 
 
 
@@ -24,12 +26,13 @@ import Blogs from "./../../components/Home/Blogs/Blogs";
 
 const Home = () => {
     return(<>
-    
+  
     <CarouselPage/>  
  
     <div className="Fashion-categories">
         
         <img src={umbrella} className="umbrealla-img"/>
+        
      
         <img src={shoes } className="umbrealla-img"/>
        
