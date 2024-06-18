@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import CategoryCard from '../../components/CategoryCard/CategoryCard';
+import CategoryCard from './../../../components/BlogCard/CategoryCard/CategoryCard';
 import './Category.css';
 
 function Category() {

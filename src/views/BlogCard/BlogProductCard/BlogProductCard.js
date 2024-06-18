@@ -7,7 +7,7 @@ import boysUmbrellaData from '../data/boys/Umbrella';
 import girlsClothesData from '../data/girls/Cloths';
 import girlsRaincoatData from '../data/girls/RainCoats';
 import girlsFootwearData from '../data/girls/Shoes';
-import MyProducts from './../../components/ProductCard/ProductCard';
+import MyProducts from './../../../components/BlogCard/ProductCard/ProductCard';
 
 function BlogProductCard() {
   const { gender, category } = useParams(); 
