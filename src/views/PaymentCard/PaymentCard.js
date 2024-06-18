@@ -47,6 +47,7 @@ function PaymentCard(){
                     </div>
  
                 </div>
+                <p className="price">Price: Rs.400/-</p>
                     <div>
                         <button type="button" className="buy-now-btn"> Buy Now</button>
                     </div>
