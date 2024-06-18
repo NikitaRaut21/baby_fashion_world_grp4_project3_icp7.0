@@ -1,0 +1,65 @@
+.Navbar-Container {
+    /* background-color: #ffb3ff; */
+    /* background-color:whitesmoke; */
+    background-color: #f6f6e2;
+   
+    padding: 20px;
+    height: 120px;
+    
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.header-logo{
+    height: 330px;   
+    border-radius: 50%;
+    width: 330px;
+    margin-left: -100px;
+  
+       /* background-color: white; */
+   
+}
+.userr-logo{
+    height: 40px;
+    color: white;
+    
+   
+}
+.cart-logo{
+   
+   
+    height: 40px;
+    color: white;
+}
+.nav-menu {
+    /* color: aliceblue; */
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.nav-menu:hover{
+    
+    transform: scale(0.9); 
+    transition: 0.5s; 
+
+}
+
+@media (max-width: 768px) {
+    .Navbar-Container {
+        height: auto;
+        flex-direction: column; 
+        padding: 10px; 
+    }
+    
+    .nav-menu {
+        font-size: 16px; 
+        margin: 5px; 
+        padding: 8px 12px;
+    }
+}

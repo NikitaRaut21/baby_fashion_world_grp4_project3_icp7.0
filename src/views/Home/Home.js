@@ -1,4 +1,4 @@
-import Navbar from  "./../../components/Header/Navbar"
+
 import "./Home.css"
 
 
@@ -7,7 +7,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import  CarouselPage from"./../../components/Home/CarouselPage/CarouselPage";
 
-import Slider from "./../../components/Home/Blogs/Blogs"
 
 import umbrella from "./umbrella.jfif"
 import shoes  from "./shoes.jfif"
@@ -25,7 +24,7 @@ import Blogs from "./../../components/Home/Blogs/Blogs";
 
 const Home = () => {
     return(<>
-    <Navbar/>
+  
     <CarouselPage/>  
  
     <div className="Fashion-categories">
@@ -54,15 +53,9 @@ const Home = () => {
     <Service/>
     <Blogs/>
      <div>
-      <div>
-        <img src=""/>
-        <p>Paragraph is added</p>
-      </div>
-      
-      <div>
-        <img src=""/>
-        <p></p>
-      </div>
+
+     
+
      </div>
 
      
