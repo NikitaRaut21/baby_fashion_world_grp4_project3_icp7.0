@@ -1,6 +1,6 @@
 import "./About.css"
 
-
+import Footer from "./../../components/Footer/Footer"
 
 import firstImg from "./first-img.jpg"
 import secondImg from "./second-img.png"
@@ -68,7 +68,7 @@ const About = () => {
       </div>
 
       
-   
+   <Footer/>
       </>
     );
   };
