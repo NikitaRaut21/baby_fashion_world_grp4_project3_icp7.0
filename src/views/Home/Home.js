@@ -15,7 +15,7 @@ import toys from "./toys.jfif"
 import boys from "./boy-cloths.jfif"
 import girls from "./girls-cloths.jfif"
 import Service from "../../components/Home/Service/Service";
-// import { Slide}  from "react-slideshow-image";
+
 import Blogs from "./../../components/Home/Blogs/Blogs";
 
 
@@ -24,7 +24,7 @@ import Blogs from "./../../components/Home/Blogs/Blogs";
 
 const Home = () => {
     return(<>
-  
+    
     <CarouselPage/>  
  
     <div className="Fashion-categories">
