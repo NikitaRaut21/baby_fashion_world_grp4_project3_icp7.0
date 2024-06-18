@@ -65,12 +65,13 @@ const About = () => {
        <div className="team-container">  
       <Team />
       </div>
-
+      < Footer/>
       </div>
 
       
-  < Footer/>
+
       </>
+        
     );
   };
   
