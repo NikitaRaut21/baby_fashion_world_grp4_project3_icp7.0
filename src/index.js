@@ -32,6 +32,12 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
              
              },
              {
+                path:"/shopping",
+                element:<ShoppingList/>
+             
+             },
+            
+             {
                 path:'/BoyGirl',
                 element:<BoyGirl/>
              }, {
@@ -46,5 +52,6 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
                 path: "/product/:id",
                 element: <ProductView />,
               },
+              
             ])
             root.render(<RouterProvider router={router} /> )            
