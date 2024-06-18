@@ -26,4 +26,28 @@ body{
         border-radius: 10px;
     
     }
+
+    .heading-select-quantity{
+        margin: 0;
+    }
+    .incre-decre-div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: aqua; */
+        height: 60px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .button-container{
+       height: 30px;
+       width: 150px;
+        background-color:none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    
+    }
     
