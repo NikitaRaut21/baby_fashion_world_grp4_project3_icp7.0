@@ -21,6 +21,11 @@ This Project is simply made by using ReactJS. Weather you are Beginner Student t
 ![alt text](./HomePage.jpg)
 
 ---
+---
+### BlogCard Page
+![alt text](./BlogCard.jpg)
+
+---
 
 ## How to Contribute 🪴💻
 
