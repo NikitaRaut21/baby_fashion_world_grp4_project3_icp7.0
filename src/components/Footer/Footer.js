@@ -14,7 +14,7 @@ import blog from "./icons/blog.png"
 import review from "./icons/review.png"
 
 
- export const Footer = ()=>{
+  const Footer = ()=>{
     const instagram_link = "https://www.instagram.com/accounts/onetap/?next=%2F&hl=en";
     const call_link = "tel:+8552012745";
     const message_link = "mailto:rutujawable0@gmail.com"
@@ -96,3 +96,4 @@ import review from "./icons/review.png"
     )
 }
 
+export default Footer;
