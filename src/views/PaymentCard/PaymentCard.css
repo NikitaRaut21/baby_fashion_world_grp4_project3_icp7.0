@@ -70,3 +70,12 @@ body{
         width: 20px;
         margin-left: 5px;
     }
+
+    .buy-now-btn{
+        padding: 7px 20px;
+        background-color: rgb(36, 206, 36);
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+    }
