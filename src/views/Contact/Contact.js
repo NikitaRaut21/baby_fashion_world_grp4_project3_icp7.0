@@ -7,8 +7,6 @@ import Gmail from "./gmail (1).png"
 import { theme } from "./../../configData"
 
 
-
-
 const Contact = () => {
     const onSubmit = async (event) => {
         event.preventDefault();
@@ -86,6 +84,16 @@ const Contact = () => {
                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='maps'></iframe>
             </div>
 
+           {/* footer */}
+
+
+          
+
+
+
+           
+
+
 
 
         </div>
@@ -94,4 +102,4 @@ const Contact = () => {
 };
 
 
-export default Contact
+export default Contact 
