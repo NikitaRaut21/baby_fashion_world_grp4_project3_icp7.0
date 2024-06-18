@@ -1,8 +1,8 @@
 import "./PaymentCard.css"
 import PaymentImg from "./../PaymentCard/boy-cloth-img.webp"
 import { useState } from "react";
-import IncreaseQuantity from "./../plus.png"
-import DecreaseQuantity from "./../minus.png"
+import IncreaseQuantity from "./plus.png"
+import DecreaseQuantity from "./minus.png"
 import PaymentBackgroundImg from "./background-img-2-removebg-.png"
 import CreaditCard from "./credit-card.png"
 import Cash from "./cashless-payment.png"
