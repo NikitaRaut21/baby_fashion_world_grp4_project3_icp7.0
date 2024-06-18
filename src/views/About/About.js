@@ -1,9 +1,11 @@
 import "./About.css"
+
 import firstImg from "./first-img.jpg"
 import secondImg from "./second-img.png"
 import Team from "./../../components/About/Team/Team";
 import Card from "./../../components/About/InfoCards/Cards/Card"
 import {theme} from "./../../configData";
+
 
 
 const About = () => {
@@ -60,7 +62,7 @@ const About = () => {
       </div>
 
       </div>
-      
+   
       </>
     );
   };
