@@ -1,4 +1,4 @@
-import "./footer.css"
+import "./Footer.css"
 import { Link } from "react-router-dom"
 import facebook from "./icons/facebook.png"
 import instagram from "./icons/instagram.png"
