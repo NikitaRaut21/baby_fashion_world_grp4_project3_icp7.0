@@ -7,16 +7,17 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px; /* Adjust gap between blogs */
-    padding: 0 20px; /* Add padding to adjust spacing */
+    gap: 20px; 
+    padding: 0 20px; 
     margin-top: 10px;
+    
 }
 
 .Blog {
     border-radius: 10px;
     padding: 10px;
     width: 400px;
-    background-color: white;
+    background-color: #f5f5ef;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin: 10px;
 }
@@ -24,7 +25,7 @@
 .img {
     width: 100%; 
     border-radius: 10px;
-    height: 250px; 
+    height: 200px; 
     margin-bottom: 10px; 
 }
 
