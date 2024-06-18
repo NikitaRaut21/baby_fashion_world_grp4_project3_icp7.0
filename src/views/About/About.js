@@ -5,6 +5,7 @@ import Team from "./../../components/About/Team/Team";
 import Card from "./../../components/About/InfoCards/Cards/Card"
 import {theme} from "./../../configData";
 
+
 const About = () => {
  
     return (
@@ -59,7 +60,7 @@ const About = () => {
       </div>
 
       </div>
-
+      
       </>
     );
   };
