@@ -14,10 +14,11 @@ import raincoat from "./raincoat.jfif"
 import toys from "./toys.jfif"
 import boys from "./boy-cloths.jfif"
 import girls from "./girls-cloths.jfif"
-import Header from "./../../components/Header/Header"
+import video from "./../../views/Home/videos/home-video.mp4"
+
 
 import Service from "../../components/Home/Service/Service";
-import ImageChanger from "./../../components/Home/Toggler/Toggler"
+
 
 import Blogs from "./../../components/Home/Blogs/Blogs";
 import { Link } from "react-router-dom";
@@ -31,9 +32,8 @@ const Home = () => {
     <Header/>
     <CarouselPage/>  
  
-    <div className="Fashion-categories">
-        
-        <img src={umbrella} className="umbrealla-img"/>        
+    <div className="Fashion-categories">>
+        <a><img src={umbrella} className="umbrealla-img"/>  </a>     
      
         <img src={shoes } className="umbrealla-img"/>
        
@@ -49,15 +49,15 @@ const Home = () => {
 
   
     
-    
+{/*     
     <div>
 
        <video controls  className="home-video">
-         <source src="https://www.youtube.com/watch?v=JNQXAC9IVRw" type="mp4"/>   
-         <p></p>     
+         <source src={video} type="mp4"/>   
+           
        </video>
 
-    </div>
+    </div> */}
 
 
     <Blogs/>

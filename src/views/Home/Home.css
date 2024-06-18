@@ -1,7 +1,9 @@
 body {
     background-color: #ffb3ff;   
     font-family: "Shadows Into Light", cursive;
-  
+    
+    overflow-y: auto;
+    
   }
 .umbrealla-img {
     border-radius: 10px;
