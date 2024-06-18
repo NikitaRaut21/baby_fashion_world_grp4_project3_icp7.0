@@ -1,9 +1,9 @@
 import "./PaymentCard.css"
-import PaymentImg from "./../../Assets/BreakFast.jpg"
+import PaymentImg from "./../PaymentCard/boy-cloth-img.webp"
 import { useState } from "react";
 import IncreaseQuantity from "./../plus.png"
 import DecreaseQuantity from "./../minus.png"
-import PaymentBackgroundImg from "./background-img-2.jpg"
+import PaymentBackgroundImg from "./background-img-2-removebg-.png"
 import CreaditCard from "./credit-card.png"
 import Cash from "./cashless-payment.png"
 import Phonepay from "./payment-method.png"
@@ -13,11 +13,12 @@ function PaymentCard(){
     const [count, setCount] = useState(0)
     return (
         <>
+        <h1>hello</h1>
             <img src={PaymentBackgroundImg} className="paymentcard-back-img" />
             <div className="payment-main-div">
                 <div>
                     <img src={PaymentImg} className="payment-img" />
-                    <p className="title"> Kashvi Drishya tops</p>
+                    <p className="title"> Kashvi Drishya Dresses</p>
                 </div>
                 <h3 className="heading-select-quantity"> Select Quantity</h3>
 
@@ -46,6 +47,7 @@ function PaymentCard(){
                     </div>
  
                 </div>
+                <p className="price">Price: Rs.400/-</p>
                     <div>
                         <button type="button" className="buy-now-btn"> Buy Now</button>
                     </div>
