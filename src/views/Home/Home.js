@@ -15,10 +15,10 @@ import toys from "./toys.jfif"
 import boys from "./boy-cloths.jfif"
 import girls from "./girls-cloths.jfif"
 import video from "./../../views/Home/videos/home-video.mp4"
-
+import Header from "./../../components/Header/Header"
 
 import Service from "../../components/Home/Service/Service";
-
+import ImageChanger from "./../../components/Home/Toggler/Toggler"
 
 import Blogs from "./../../components/Home/Blogs/Blogs";
 import { Link } from "react-router-dom";
@@ -48,8 +48,8 @@ const Home = () => {
     </div>
 
   
-    
 {/*     
+    
     <div>
 
        <video controls  className="home-video">
