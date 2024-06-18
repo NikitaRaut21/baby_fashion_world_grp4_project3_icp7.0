@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './BoyGirl.css';
 
+
 function BoyGirl() {
   return (
     <div className="home">
