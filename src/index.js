@@ -9,6 +9,9 @@ import Contact from "./views/Contact/Contact";
 
 import BoyGirl from "./views/BlogCard/BoyGirl/BoyGirl"
 
+import Home from "./views/Home/Home"
+
+
 
 
 
@@ -21,7 +24,7 @@ import BoyGirl from "./views/BlogCard/BoyGirl/BoyGirl"
             const path = window.location.pathname
             if(path === "/")
                {
-                   root.render()
+                   root.render(<Home/>)
                }
               
                    else if (path === "/about")
@@ -30,9 +33,8 @@ import BoyGirl from "./views/BlogCard/BoyGirl/BoyGirl"
                     }
                     else if (path === "/boygirl")
                         {
-                            root.render(<BoyGirl/>)
+                            root.render(<BoyGirl />)
                         }
-                        
                    
                    else if (path === "/shopping")
                        {
@@ -47,3 +49,10 @@ import BoyGirl from "./views/BlogCard/BoyGirl/BoyGirl"
                        else{
                            root.render(<h1>404 Page Not Found</h1>)
                        }
+
+
+                      
+
+
+
+                       
