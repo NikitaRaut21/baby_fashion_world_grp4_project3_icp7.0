@@ -1,0 +1,36 @@
+.toggler-content{
+
+   
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   
+    
+}
+.Toggler{
+    display: block;
+}
+.toggler-component{
+    padding: 30px 20px;
+    margin: 10px 50px;
+    border: 1px solid rgb(41, 38, 38);
+    width: 450px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.img{
+    height: 400px;
+    
+}
+
+.icon{
+    height: 40px;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+
+.icons-div{
+    text-align: center;
+    margin-top: 25px;
+    
+}
