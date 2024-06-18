@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import blog from "./img/blog.png";
+
 import "./Toggler.css"
 import prev from './img/previous (1).png'
 import next from './img/next.png'
