@@ -1,4 +1,6 @@
 import "./PaymentCard.css"
+import Header from "./../../components/Header/Header"
+import Footer from "./../../components/Footer/Footer"
 import PaymentImg from "./../PaymentCard/boy-cloth-img.webp"
 import { useState } from "react";
 import IncreaseQuantity from "./plus.png"
@@ -13,6 +15,7 @@ function PaymentCard(){
     const [count, setCount] = useState(0)
     return (
         <>
+        <Header/>
        
             <img src={PaymentBackgroundImg} className="paymentcard-back-img" />
             <div className="payment-main-div">
@@ -54,6 +57,7 @@ function PaymentCard(){
 
 
             </div>
+            <Footer/>
 
 
 
