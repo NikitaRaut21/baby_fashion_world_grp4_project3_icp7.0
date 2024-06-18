@@ -20,6 +20,24 @@ function PaymentCard(){
                     <p className="title"> Kashvi Drishya tops</p>
                 </div>
                 <h3 className="heading-select-quantity"> Select Quantity</h3>
+
+                <div className="incre-decre-div">
+                    <div className="button-container">
+                        <img src={IncreaseQuantity} className="incre-decre-logo" onClick={() => { setCount(count + 1) }}>
+                        </img>
+
+                        <h2>{count}</h2>
+
+                        <img src={DecreaseQuantity} className="incre-decre-logo" onClick={() => {
+                            setCount(count - 1)
+                        }}>
+
+                        </img>
+
+                        {/* <button className="button" onClick={() => {
+                        setCount(0)
+                    }}> Reset</button> */}
+                    </div>
                
     
 }
