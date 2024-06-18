@@ -13,7 +13,7 @@ function PaymentCard(){
     const [count, setCount] = useState(0)
     return (
         <>
-        <h1>hello</h1>
+       
             <img src={PaymentBackgroundImg} className="paymentcard-back-img" />
             <div className="payment-main-div">
                 <div>
