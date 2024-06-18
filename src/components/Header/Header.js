@@ -1,13 +1,13 @@
 
 import React from 'react'
-import "./navbar.css";
+import "./Header.css";
 
 import {Link} from "react-router-dom";
 import logo from "./img/logo-removebg-preview.png"
 import user from "./img/login.png"
 import cart from "./img/cart.png"
 
-function Navbar() {
+function Header() {
   return (
     <div className='Navbar-Container'>
       <img  src={logo} className="header-logo"/>
@@ -22,5 +22,5 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Header
 

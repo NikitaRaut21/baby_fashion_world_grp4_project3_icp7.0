@@ -13,7 +13,7 @@ function CarouselPage() {
       <Carousel data-bs-theme="dark">
       <Carousel.Item>
         <img className="d-block w-100 mt-5 height"
-          src={img1} fluid 
+          src={img1} 
           alt="First slide"/>
         {/* <Carousel.Caption>
           <h5>Trust Of Mothers</h5>
@@ -23,7 +23,7 @@ function CarouselPage() {
 
       <Carousel.Item>
         <img className="d-block w-100 mt-5 height"
-          src={img2} fluid 
+          src={img2} 
           alt="Second slide"/>
         {/* <Carousel.Caption>
           <h5>Second slide label</h5>
@@ -33,7 +33,7 @@ function CarouselPage() {
 
       <Carousel.Item>
         <img className="d-block w-100 mt-5  height"
-          src={img3} fluid 
+          src={img3} 
           alt="Third slide"/>
         {/* <Carousel.Caption>
           <h5>Third slide label</h5>
