@@ -31,8 +31,7 @@ const Home = () => {
  
     <div className="Fashion-categories">
         
-        <img src={umbrella} className="umbrealla-img"/>
-        
+        <img src={umbrella} className="umbrealla-img"/>        
      
         <img src={shoes } className="umbrealla-img"/>
        
@@ -55,14 +54,12 @@ const Home = () => {
          <p></p>     
        </video>
     </div>
+
+
     <Blogs/>
+    
     <Service/>
-     <div>
-
-     
-
-     </div>
-
+    
      
     
     
