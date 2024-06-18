@@ -1,7 +1,7 @@
 import "./About.css"
 
-
-
+import Footer from "./../../components/Footer/Footer"
+import Header from "./../../components/Header/Header"
 import firstImg from "./first-img.jpg"
 import secondImg from "./second-img.png"
 import Team from "./../../components/About/Team/Team";
@@ -16,6 +16,7 @@ const About = () => {
  
     return (
 <>
+<Header/>
 
       <div className="about-page"style={{backgroundColor:theme.backColor}}>
         <h1>About Us</h1>
@@ -64,12 +65,13 @@ const About = () => {
        <div className="team-container">  
       <Team />
       </div>
-
+      < Footer/>
       </div>
 
       
-  
+
       </>
+        
     );
   };
   
